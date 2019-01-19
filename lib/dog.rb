@@ -69,6 +69,7 @@ class Dog
       new_dog = self.new_from_db(new_dog[0])
     else 
       new_dog = self.create(dog)
+      binding.pry
     end
       new_dog
   end
